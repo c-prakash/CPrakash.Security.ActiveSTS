@@ -1,0 +1,1 @@
+﻿<%@ServiceHost language=C# Factory="CPrakash.Security.ActiveSTS.RealmSTS.RealmClassFactory, CPrakash.Security.ActiveSTS.RealmSTS" Service="CPrakash.Security.ActiveSTS.RealmSTS.RealmSecurityTokenServiceConfiguration, CPrakash.Security.ActiveSTS.RealmSTS" %>
