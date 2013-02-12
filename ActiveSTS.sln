@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CPrakash.Security.ActiveSTS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CPrakash.Security.ActiveSTS.SvcHost", "SvcHost\CPrakash.Security.ActiveSTS.SvcHost.csproj", "{9F611051-276D-4AFE-B17E-E8F5650D6E6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurityWebApp", "SecurityWebApp\SecurityWebApp.csproj", "{6BAA5707-69BE-45BA-86FF-A79D86B647E8}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StsClient", "StsClient\StsClient.csproj", "{543BD86C-819A-4EE0-ABA6-6D99593EA1B7}"
 EndProject
 Global
@@ -29,10 +27,6 @@ Global
 		{9F611051-276D-4AFE-B17E-E8F5650D6E6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F611051-276D-4AFE-B17E-E8F5650D6E6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F611051-276D-4AFE-B17E-E8F5650D6E6B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6BAA5707-69BE-45BA-86FF-A79D86B647E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6BAA5707-69BE-45BA-86FF-A79D86B647E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6BAA5707-69BE-45BA-86FF-A79D86B647E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6BAA5707-69BE-45BA-86FF-A79D86B647E8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{543BD86C-819A-4EE0-ABA6-6D99593EA1B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{543BD86C-819A-4EE0-ABA6-6D99593EA1B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{543BD86C-819A-4EE0-ABA6-6D99593EA1B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
