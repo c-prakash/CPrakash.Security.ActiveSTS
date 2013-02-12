@@ -10,27 +10,6 @@ using Microsoft.IdentityModel.Protocols.WSIdentity;
 
 namespace CPrakash.Security.ActiveSTS.RealmSTS
 {
-    public class CustomUserNamePasswordValidator : UserNamePasswordValidator
-    {
-        /// <summary>
-        /// Validates the specified username and password.
-        /// </summary>
-        /// <param name="userName">The username to validate.</param>
-        /// <param name="password">The password to validate.</param>
-        public override void Validate(string userName, string password)
-        {
-            if (null == userName)
-                throw new ArgumentNullException("userName");
-            if (null == password)
-                throw new ArgumentNullException("password");
-
-            if (userName == "demouser" && password == "demouser")
-                return;
-
-            throw new SecurityTokenException("Unknown Username or Incorrect Password");
-        }
-    }
-
     public class CustomUserNameSecurityTokenHandler : UserNameSecurityTokenHandler
     {
         public override ClaimsIdentityCollection ValidateToken(SecurityToken token)
