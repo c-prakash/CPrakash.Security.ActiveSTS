@@ -28,5 +28,15 @@ namespace StsClient.Controllers
             }
             return View(claims);
         }
+
+        public ActionResult AccessLinkOne()
+        {
+            return Content("You are authorize to view this page");
+        }
+
+        public ActionResult AccessLinkTwo()
+        {
+            return Content("You are authorize to view this page");
+        }
     }
 }
