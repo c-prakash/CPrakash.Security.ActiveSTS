@@ -5,7 +5,7 @@ using System.Text;
 using System;
 using System.Security.Cryptography.X509Certificates;
 
-namespace Humana.Ide.Cxm.Security.CxmRealmSTS
+namespace CPrakash.Security.ActiveSTS.RealmSTS
 {
     /// <summary>
     /// A utility class which helps to retrieve an x509 certificate
